@@ -1,0 +1,33 @@
+{
+    "name": "stezkoy/flarum-doorquest",
+    "description": "Gate registration behind a question-and-answer challenge. New users must answer a question correctly; supports optional auto-activation and group assignment.",
+    "keywords": ["flarum", "registration", "gate", "question", "answer", "security"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stezkoy\\FlarumDoorquest\\": "src/"
+        }
+    },
+    "support": {
+        "source": "https://github.com/Stezkoy/flarum-doorquest",
+        "issues": "https://github.com/Stezkoy/flarum-doorquest/issues",
+        "forum": "https://discuss.flarum.org/d/39813-doorquest-gate-registration-with-qa"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Doorquest",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-question-circle",
+                "backgroundColor": "#3498db",
+                "color": "#FFF"
+            }
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}

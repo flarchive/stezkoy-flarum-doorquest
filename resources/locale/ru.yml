@@ -1,0 +1,70 @@
+stezkoy-doorquest:
+  forum:
+    sign_up:
+      question_label: "Вопрос"
+      answer_placeholder: "Ваш ответ"
+      invalid_answer: "Неверный ответ. Попробуйте ещё раз."
+      answer_required: "Для регистрации необходимо ответить на вопрос."
+
+  admin:
+    settings:
+      heading: "Настройки Doorquest"
+      total_questions: "{count} вопрос(ов)"
+      search: "Поиск вопросов..."
+      create_question_button: "Создать вопрос"
+
+    list:
+      heading: "Вопросы"
+      columns:
+        id: "ID"
+        question: "Вопрос"
+        answer: "Ответ"
+        group: "Группа"
+        max_uses: "Лимит"
+        activates_user: "Активация"
+        uses: "Использовано"
+        created_by: "Кем создан"
+        manage: "Управление"
+      actions:
+        edit: "Изменить"
+        delete: "Удалить"
+      content:
+        no_group: "Нет"
+        no_created_by: "—"
+        delete: "Вы уверены, что хотите удалить вопрос: «{question}»?"
+        warning: "Достигнут лимит"
+        uses:
+          used_times: "Осталось {remainingUses}"
+          total_uses: "Использовано {totalUses} раз(а)"
+        invalid_column: "—"
+      pagination:
+        first_page_button: "Первая страница"
+        back_button: "Назад"
+        next_button: "Вперёд"
+        last_page_button: "Последняя страница"
+        page_counter: "Страница {current} из {total}"
+
+    modals:
+      create_question:
+        title: "Создать вопрос"
+        question:
+          label: "Вопрос"
+          help: "Вопрос, который увидят пользователи при регистрации."
+        answer:
+          label: "Ответ"
+          help: "Правильный ответ (регистр не важен)."
+        group:
+          label: "Назначить группу"
+          help: "Пользователи, ответившие правильно, будут добавлены в эту группу."
+        max_uses:
+          label: "Макс. использований"
+          help: "Максимальное количество ответов на этот вопрос. 0 = без ограничений."
+        activates_user:
+          label: "Автоактивация"
+          help: "Автоматически активировать пользователя без подтверждения по электронной почте."
+        submit_button: "Создать"
+        submit_and_create_another_button: "Создать и добавить ещё"
+
+      edit_question:
+        title: "Изменить вопрос"
+        submit_button: "Сохранить изменения"
