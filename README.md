@@ -2,13 +2,15 @@
 
 > **Read-only archive of released versions of stezkoy/flarum-doorquest.** Not for installation: use [Packagist](https://packagist.org/packages/stezkoy/flarum-doorquest) or the [upstream repository](https://github.com/Stezkoy/flarum-doorquest).
 
-**0** versions archived · Latest: [`1.0.0-beta.3`](https://github.com/flarchive/stezkoy-flarum-doorquest/tree/archive/v1.0.0-beta.3) · License: `MIT` · Flarum: `^2.0.0`
+**3** versions archived · Latest: [`1.0.0-beta.3`](https://github.com/flarchive/stezkoy-flarum-doorquest/tree/archive/v1.0.0-beta.3) · License: `MIT` · Flarum: `^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0-beta.1` | 2026-09-06 | `^2.0.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-doorquest/tree/archive/v1.0.0-beta.1) |
+| `1.0.0-beta.2` | 2026-09-08 | `^2.0.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-doorquest/tree/archive/v1.0.0-beta.2) |
+| `1.0.0-beta.3` | 2026-09-09 | `^2.0.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-doorquest/tree/archive/v1.0.0-beta.3) |
 
 Catalog entry: [packages/stezkoy-flarum-doorquest.json](https://github.com/flarchive/archive-index/blob/main/packages/stezkoy-flarum-doorquest.json)
 
